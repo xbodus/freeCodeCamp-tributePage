@@ -1,0 +1,148 @@
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #2C5BF7;
+    color: #FCFCF7;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  body {
+    background-color: #FCFCF7;
+    margin: 0;
+  }
+
+  img[alt="swimming"] {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+  }
+
+  h1 {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  nav {
+    width: 40%;
+    height: 60px;
+    font-family: sans-serif;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    list-style: none;
+  }
+
+  nav > ul a {
+    text-decoration: none;
+    color: #FCFCF7;
+  }
+
+  nav > ul a:hover {
+    color: #FFF428;
+    background-color: #041F76;
+    padding:20px 10px;
+  }
+
+  main {
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+  }
+
+  .hero {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    background-image: linear-gradient(110deg, rgba(255, 0, 0, .4), rgba(0,0,255, .3)), url("https://i.pinimg.com/1200x/80/2e/52/802e52685e04e426b5cd8767da2ed9bd.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  figcaption {
+    text-align: center;
+    margin: 1em 0 3em;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 2px solid;
+  }
+
+  .quote {
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+  }
+
+  .mac {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  footer {
+    width: 100%;
+    height: 100px;
+    background-color: #FFF428;
+  }
+
+  .shoutout, .reference {
+    padding: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+
+  .shoutout {
+    position: relative;
+    top: 25px;
+  }
+
+  section {
+    line-height: 2em;
+    margin-top: 4em;
+  }
+
+  h3, h4 {
+    text-indent: 50px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin-left: 50px;
+    line-height: 2em;
+  }
+
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
